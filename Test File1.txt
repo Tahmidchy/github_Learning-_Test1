@@ -1,0 +1,5 @@
+# Here we are creating a new file in the GitHub profile. 
+<p> Here we are creating this file in the Remote Repo, don't upload from the local repo </p>
+- Hello Everyone! I am Mr.Tahmid. I am from Bangladesh, specifically Chittagong, located in the southeastern part of Bangladesh.
+- I am graduating as a Computer Science engineer,
+- I am now learning JavaScript Programming.
