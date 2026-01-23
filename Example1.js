@@ -1,14 +1,15 @@
 /*
-TODO: Example-1: Now we are testing the JSON Converter 
+TODO: Example-1: In here An Array Method but we are testing simple function but we are using array method 
 */
 
-// Solution code:
-
-const user = {
-    name: "John Doe",
-    age: 30,
-    city: "New York"
-};
-// Convert the user object to a JSON string
-const jsonString = JSON.stringify(user);
-console.log("JSON String:", jsonString);
+function doubleAll(numbers) {
+    const doubled = [];
+    for (const number of numbers) {
+        const value = number * 2;
+        doubled.push(value);
+    }
+    return doubled;
+}
+// Test the function
+const numbers = [1, 2, 3, 4, 5];
+console.log(doubleAll(numbers)); // Output: [2, 4, 6, 8, 10]

@@ -1,20 +1,10 @@
 /*
-TODO: Example-2: Now we are testing the JSON data converting to javascript string object.
+
+TODO: Example-2: now we are checking same problem solved with Array.prototype.map() method
+
 */
 
-// Solution:
-
-const shop = {
-    owner: 'Alia',
-    address: {
-        street: 'Kumarpara',
-        city: 'Kushtia',
-        country: 'Bangladesh'
-    },
-    products: ['laptop', 'mobile', 'watch'],
-    revenue: 45000,
-    isOpen: true,
-    isNew: false
-};
-const shopJSON = JSON.stringify(shop);
-console.log(shopJSON);
+// Example-2: 
+const numbers = [1, 2, 3, 4, 5];
+const result= numbers.map(num => num * 2);
+console.log(result); // Output: [2, 4, 6, 8, 10]
