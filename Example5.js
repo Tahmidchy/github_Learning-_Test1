@@ -1,13 +1,15 @@
 /*
-
-TODO: Example-5: In here We are testing On forEach method of Array
-This code is used to demonstrate the use of the forEach method on an array.
-The forEach method executes a provided function once for each array element.
-
+TODO: Example-5: Now we are testing case sensitive issue are string method that's is Lower case and upper case.
 */
 
-// Example-5: forEach method of Array
+// Example-5: 
 
-const numbers = [1, 2, 3, 4, 5];
-const result = numbers.forEach(n => console.log(n));
-console.log(result); // undefined
+const subjects = 'Chemistry';
+const books = 'chemistry';
+if(subjects === books){
+    console.log(' I am reading Chemistry');
+} else {
+    console.log('Trying to understand how to read chemistry');
+}
+
+// OutPut : are coming from else because upper case string and lower case string are not same.
