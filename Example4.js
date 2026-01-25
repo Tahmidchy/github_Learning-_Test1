@@ -1,14 +1,11 @@
 /*
-
-TODO: Example-4: we are using Array.prototype.map() method to perform a series of operations on an array of numbers check array length 
-
+TODO: Example-4: Now we are testing string indexOf Method as like array
 */
 
-// Example-4:
+// Example-4: 
 
-const friends = ['Alice', 'Bob', 'Charlie', 'David', 'Eve'];
-const lengths = friends.map(friend => friend.length);
-const firstLetters = friends.map(friend => friend[0]);
-console.log(lengths); // Output: [5, 3, 7, 5, 3]
-console.log(firstLetters); // Output: ['A', 'B', 'C', 'D', 'E']
-console.log(friends.length); // Output: 5
+const language = 'JavaScript';
+console.log(language.indexOf('rip')); // Output: 6
+console.log(language.indexOf('py')); // Output: -1
+
+// If indexOf value found return the index number, if indexOf not found that's value this is return -1.
