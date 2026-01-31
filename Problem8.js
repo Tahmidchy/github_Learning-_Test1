@@ -1,9 +1,20 @@
 /*
-TODO: Program-8: Check if const language = 'JavaScript'; contains script by ignoring case
+TODO: Problem-8: Write a function to find the sum of the ages of the father and son.
 */
 
-//Solution: 
+// Solution :
 
-const language = 'JavaScript';
-const containsScript = language.toLowerCase().includes('script'); // Check if 'script' is in the string, ignoring case
-console.log(containsScript); // Output: true
+function sumOfAges(fatherAge, sonAge) {
+  
+    
+    // Calculate the sum of ages
+    const sum = fatherAge + sonAge;
+    
+    // Return the result
+    return sum;
+};
+// Example usage
+const fatherAge = 40;
+const sonAge = 10;
+const result = sumOfAges(fatherAge, sonAge);
+console.log(`The sum of the ages of the father and son is: ${result}`); // Output: The sum of the ages of the father and son is: 50

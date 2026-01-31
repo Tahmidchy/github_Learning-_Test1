@@ -1,9 +1,13 @@
 /*
-TODO: Problem-6: There is an email const email = 'User@Example.Com'; Convert this email to lowercase.
+TODO: Problem-6: You create a function called getFavFriend and display the function's output by entering your three friend's name in it.
 */
 
-// Solution: 
+// Solution:
 
-const email = 'User@Example.Com';
-const lowerCaseEmail = email.toLowerCase(); // Convert the email to lowercase
-console.log(lowerCaseEmail); // Output: ' 
+function getFavFriend(friend1, friend2, friend3) {
+    console.log("My favorite friends are: " + friend1 + ", " + friend2 + ", and " + friend3);
+};
+// Test the function
+getFavFriend("Alice", "Bob", "Charlie", "Dog" , "Cat"); // Output: My favorite friends are: Alice, Bob, and Charlie
+// getFavFriend("John", "Jane", "Doe"); // Output: My favorite friends are: John, Jane, and Doe
+// getFavFriend("Mike", "Sara", "Tom"); // Output: My favorite friends are: Mike, Sara, and Tom

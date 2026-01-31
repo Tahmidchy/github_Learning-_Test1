@@ -1,9 +1,14 @@
 /*
-TODO: Program-4: Create a string in the language whose value will be JavaScript. This time, check with indexOf, if any index has been started.
+TODO: Problem-4: Write a function called taskDone. In the function, display the 5 tasks you completed throughout the day in a single line console log.
 */
 
-//Solution: 
-
-const language = 'JavaScript';
-const index = language.indexOf('rip'); // Check for the substring 'rip'
-console.log(index); // Output: 4 (since 'rip' starts at index 4)
+// Solution:
+function taskDone() {
+    console.log("Task 1 : Online Meeting with Client");
+    console.log("Task 2 : Code Review");
+    console.log("Task 3 : Team Standup");
+    console.log("Task 4 : Project Planning");
+    console.log("Task 5 : Documentation");
+};
+// Test the function
+taskDone();

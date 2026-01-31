@@ -1,9 +1,15 @@
 /*
-TODO: Problem-3: const name = 'Rifat'; Extract the last character of the string.
+TODO: Problem - 3: Write a function for your family. Give it any name and then output the names of all the members of your family one by one.
 */
 
-//Solution:
+// Solution:
 
-const name = 'Rifat';
-const lastCharacter = name.charAt(name.length - 1);
-console.log(lastCharacter); // Output: 't'
+function myFamily() {
+    console.log("John");
+    console.log("Jane");
+    console.log("Alice");
+    console.log("Bob");
+    console.log("Charlie");
+};
+// Test the function
+myFamily();

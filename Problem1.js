@@ -1,8 +1,11 @@
 /*
-TODO: Problem-1: Create a string that contains a string named city whose value will be Chittagong. This time, we need to use indexOf to find out g if there is any index here.
+TODO: Problem-1: Write a function called Juice. When called, it will output "Here, drink lemon juice."
 */
 
 // Solution: 
 
-const City = " Chattogram";
-console.log(City.indexOf("g"));// OutPut: return index number if the value found. example in here give the answer is 7.
+function Juice() {
+    console.log("Here, drink lemon juice.");
+};
+// Test the function
+Juice(); // Output: Here, drink lemon juice.
