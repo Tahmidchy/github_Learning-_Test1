@@ -1,20 +1,11 @@
-/*
-TODO: Problem-10: You create a promise to process a payment, there will be a variable called amount, if the value of this variable is positive (greater than 0) the promise will be processed successfully, and if the value of amount is 0 or less, the promise will be rejected.
-*/
+/* 
+TODO: Problem-10:You have 3 friends, assign that number to a variable called friendCount. Later, 2 of your friends leave you and go out of the country. Now assign the value friendCount in a new way and print the console to see which value is printed.
+ */
 
 // Solution: 
 
-const processPayment = new Promise((resolve,reject)=>{
-    const amount = 100; // Change this value to test different scenarios
-
-    if(amount > 0){
-        resolve(`Payment of $${amount} processed successfully.`);
-    } else {
-        reject("Payment failed: Amount must be greater than 0.");
-    }
-});
-processPayment.then((message)=>{
-    console.log(message);
-}).catch((error)=>{
-    console.log(error);
-});
+let friendCount = 3; // Assigning the value 3 to friendCount variable
+ // Printing the value of friendCount variable
+// Later, 2 of your friends leave you and go out of the country. Now assign the update value of friendCount in a new way and print the console to see which value is printed.
+friendCount -= 2; // Assigning the value 1 to friendCount variable
+console.log(friendCount); // Printing the value of friendCount variabl
