@@ -1,11 +1,8 @@
 /*
-TODO: Problem-1: Write a function called Juice. When called, it will output "Here, drink lemon juice."
-*/
+TODO: Problem number-1 : Write a program that uses "typeof" to check a variable's type. For instance, create a variable named price and assign it the value 555. Then, determine the type of the variable.
+ */
 
-// Solution: 
+//Solution:
 
-function Juice() {
-    console.log("Here, drink lemon juice.");
-};
-// Test the function
-Juice(); // Output: Here, drink lemon juice.
+let price = 555;
+console.log(typeof price); // Output: "number"

@@ -1,15 +1,8 @@
 /*
-TODO: Problem - 3: Write a function for your family. Give it any name and then output the names of all the members of your family one by one.
-*/
+TODO: Problem-3: Declare a variable named megaCity and assign it the value "Dhaka", then use typeof to determine the type of the value stored in megaCity.
+ */
 
-// Solution:
+//Solution : 
 
-function myFamily() {
-    console.log("John");
-    console.log("Jane");
-    console.log("Alice");
-    console.log("Bob");
-    console.log("Charlie");
-};
-// Test the function
-myFamily();
+let megaCity = "Dhaka";
+console.log(typeof megaCity); // Output: string

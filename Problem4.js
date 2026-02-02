@@ -1,14 +1,8 @@
 /*
-TODO: Problem-4: Write a function called taskDone. In the function, display the 5 tasks you completed throughout the day in a single line console log.
-*/
+TODO: Problem-4: In the scorching heat, I placed my hand on my forehead and felt a high fever. At this moment, I have declared a variable named `temperature`, which has a value of 102.5. Now, if I check this variable using `typeof`, what type of variable will it be?
+ */
 
-// Solution:
-function taskDone() {
-    console.log("Task 1 : Online Meeting with Client");
-    console.log("Task 2 : Code Review");
-    console.log("Task 3 : Team Standup");
-    console.log("Task 4 : Project Planning");
-    console.log("Task 5 : Documentation");
-};
-// Test the function
-taskDone();
+//Solution:
+
+let temperature = 102.5;
+console.log(typeof temperature); // Output: "number"

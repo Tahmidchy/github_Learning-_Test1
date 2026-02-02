@@ -1,9 +1,12 @@
 /*
-TODO: Fetch ফাংশন থেকে রিটার্ন করা প্রমিজের মাধ্যমে রেসপন্স .জেসন () কল করে , ডাটা কনভার্ট কেন করা হয় ?
-*/
-// Answer: রেসপন্স .জেসন () কল করার মাধ্যমে আমরা রেসপন্স বডি থেকে JSON ডাটা এক্সট্রাক্ট করতে পারি। 
-// এটি একটি অ্যাসিঙ্ক্রোনাস অপারেশন যা একটি প্রমিজ রিটার্ন করে, যা কনভার্ট করা JSON ডাটা ধারণ করে।
-fetch('https://jsonplaceholder.typicode.com/posts/1')
-    .then(response => response.json()) // রেসপন্স থেকে JSON ডাটা এক্সট্রাক্ট করা হচ্ছে
-    .then(data => console.log(data)) // কনভার্ট করা ডাটা কনসোলে লগ করা হচ্ছে
-    .catch(error => console.error('Error:', error));
+TODO: Problem-12: There are 40 chairs in your class. A few days ago, the legs of 2 chairs broke. Now assign a variable called chairsCount and update the number of chairs. After a few days, a senior brother from your class came, took 6 chairs, and left. Again, you update the value of chairsCount and show the final output in the console.
+ */
+//Solution: 
+
+let chairsCount = 40;
+chairsCount -= 2;
+console.log(chairsCount);
+// Output: 38
+chairsCount -= 6;
+console.log(chairsCount);
+// Output: 32

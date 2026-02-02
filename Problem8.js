@@ -1,20 +1,7 @@
 /*
-TODO: Problem-8: Write a function to find the sum of the ages of the father and son.
-*/
-
-// Solution :
-
-function sumOfAges(fatherAge, sonAge) {
-  
-    
-    // Calculate the sum of ages
-    const sum = fatherAge + sonAge;
-    
-    // Return the result
-    return sum;
-};
-// Example usage
-const fatherAge = 40;
-const sonAge = 10;
-const result = sumOfAges(fatherAge, sonAge);
-console.log(`The sum of the ages of the father and son is: ${result}`); // Output: The sum of the ages of the father and son is: 50
+TODO: Problem-8: You have 500 taka in your pocket. You assign a value of 150 taka to a variable called pocketMoney and print it to see which value is displayed last.
+ */
+// Solution: 
+let pocketMoney = 500;
+pocketMoney -= 150;
+console.log(pocketMoney); //Output 350
